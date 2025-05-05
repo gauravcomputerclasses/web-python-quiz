@@ -1,0 +1,94 @@
+{
+  "quiz": [
+    {
+      "question": "1. What does HTML stand for?",
+      "options": [
+        "HyperText Makeup Language",
+        "Hyperlink and Text Markup Language",
+        "HyperText Markup Language",
+        "Home Tool Markup Language"
+      ],
+      "answer": "HyperText Markup Language",
+      "explanation": "HTML stands for HyperText Markup Language. It is used to create and structure web content."
+    },
+    {
+      "question": "2. What is the purpose of the <!DOCTYPE html> declaration?",
+      "options": [
+        "To start the HTML body",
+        "To define CSS rules",
+        "To tell the browser which version of HTML is being used",
+        "To link external JavaScript"
+      ],
+      "answer": "To tell the browser which version of HTML is being used",
+      "explanation": "The DOCTYPE declaration tells the browser that the document uses HTML5, ensuring proper rendering."
+    },
+    {
+      "question": "3. Which tag is used to create a paragraph in HTML?",
+      "options": ["<p>", "<h1>", "<br>", "<div>"],
+      "answer": "<p>",
+      "explanation": "The <p> tag defines a paragraph in HTML and is a block-level element."
+    },
+    {
+      "question": "4. Which of the following is a self-closing HTML tag?",
+      "options": ["<p>", "<h1>", "<img>", "<div>"],
+      "answer": "<img>",
+      "explanation": "The <img> tag is self-closing and does not require a closing tag."
+    },
+    {
+      "question": "5. Which tag is used to add a main title on a webpage?",
+      "options": ["<h6>", "<h1>", "<p>", "<title>"],
+      "answer": "<h1>",
+      "explanation": "<h1> defines the most important heading and is typically used for the main title on a page."
+    },
+    {
+      "question": "6. What does an HTML attribute do?",
+      "options": [
+        "Changes the programming language",
+        "Stores CSS code",
+        "Provides additional information about an element",
+        "Adds animation to the page"
+      ],
+      "answer": "Provides additional information about an element",
+      "explanation": "Attributes give extra information like ID, class, href, or src in HTML elements."
+    },
+    {
+      "question": "7. Where is the content of a webpage displayed?",
+      "options": [
+        "Inside the <head> tag",
+        "Inside the <meta> tag",
+        "Inside the <body> tag",
+        "Inside the <script> tag"
+      ],
+      "answer": "Inside the <body> tag",
+      "explanation": "The <body> tag contains all the visible content of the webpage."
+    },
+    {
+      "question": "8. What is the function of the <title> tag in HTML?",
+      "options": [
+        "Displays a heading on the page",
+        "Shows a tooltip",
+        "Defines the title shown in the browser tab",
+        "Adds a hyperlink"
+      ],
+      "answer": "Defines the title shown in the browser tab",
+      "explanation": "The <title> tag sets the text that appears in the browser's title bar or tab."
+    },
+    {
+      "question": "9. How do you write an HTML comment?",
+      "options": [
+        "// This is a comment",
+        "/* This is a comment */",
+        "# This is a comment",
+        "<!-- This is a comment -->"
+      ],
+      "answer": "<!-- This is a comment -->",
+      "explanation": "HTML comments start with <!-- and end with --> and are not displayed on the page."
+    },
+    {
+      "question": "10. Which tag is used to define the metadata of an HTML document?",
+      "options": ["<head>", "<meta>", "<body>", "<title>"],
+      "answer": "<meta>",
+      "explanation": "The <meta> tag provides metadata such as charset, author, and description to the browser."
+    }
+  ]
+}
