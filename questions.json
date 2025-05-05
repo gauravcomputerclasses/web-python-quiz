@@ -12,7 +12,7 @@
       "explanation": "HTML stands for HyperText Markup Language. It is used to create and structure web content."
     },
     {
-      "question": "2. What is the purpose of the <!DOCTYPE html> declaration?",
+      "question": "2. What is the purpose of the !DOCTYPE html declaration?",
       "options": [
         "To start the HTML body",
         "To define CSS rules",
@@ -24,21 +24,21 @@
     },
     {
       "question": "3. Which tag is used to create a paragraph in HTML?",
-      "options": ["<p>", "<h1>", "<br>", "<div>"],
-      "answer": "<p>",
-      "explanation": "The <p> tag defines a paragraph in HTML and is a block-level element."
+      "options": ["p tag", "h1 tag", "br tag", "div tag"],
+      "answer": "p tag",
+      "explanation": "The p tag defines a paragraph in HTML and is a block-level element."
     },
     {
       "question": "4. Which of the following is a self-closing HTML tag?",
-      "options": ["<p>", "<h1>", "<img>", "<div>"],
-      "answer": "<img>",
-      "explanation": "The <img> tag is self-closing and does not require a closing tag."
+      "options": ["p", "h1", "img", "div"],
+      "answer": "img",
+      "explanation": "The img tag is self-closing and does not require a closing tag."
     },
     {
       "question": "5. Which tag is used to add a main title on a webpage?",
-      "options": ["<h6>", "<h1>", "<p>", "<title>"],
-      "answer": "<h1>",
-      "explanation": "<h1> defines the most important heading and is typically used for the main title on a page."
+      "options": ["h6", "h1", "p", "title"],
+      "answer": "h1",
+      "explanation": "h1 defines the most important heading and is typically used for the main title on a page."
     },
     {
       "question": "6. What does an HTML attribute do?",
@@ -54,16 +54,16 @@
     {
       "question": "7. Where is the content of a webpage displayed?",
       "options": [
-        "Inside the <head> tag",
-        "Inside the <meta> tag",
-        "Inside the <body> tag",
-        "Inside the <script> tag"
+        "Inside the head tag",
+        "Inside the meta tag",
+        "Inside the body tag",
+        "Inside the script tag"
       ],
-      "answer": "Inside the <body> tag",
-      "explanation": "The <body> tag contains all the visible content of the webpage."
+      "answer": "Inside the body tag",
+      "explanation": "The body tag contains all the visible content of the webpage."
     },
     {
-      "question": "8. What is the function of the <title> tag in HTML?",
+      "question": "8. What is the function of the title tag in HTML?",
       "options": [
         "Displays a heading on the page",
         "Shows a tooltip",
@@ -71,7 +71,7 @@
         "Adds a hyperlink"
       ],
       "answer": "Defines the title shown in the browser tab",
-      "explanation": "The <title> tag sets the text that appears in the browser's title bar or tab."
+      "explanation": "The title tag sets the text that appears in the browser's title bar or tab."
     },
     {
       "question": "9. How do you write an HTML comment?",
@@ -79,16 +79,16 @@
         "// This is a comment",
         "/* This is a comment */",
         "# This is a comment",
-        "<!-- This is a comment -->"
+        "!-- This is a comment --"
       ],
-      "answer": "<!-- This is a comment -->",
-      "explanation": "HTML comments start with <!-- and end with --> and are not displayed on the page."
+      "answer": "!-- This is a comment --",
+      "explanation": "HTML comments start with !-- and end with -- and are not displayed on the page."
     },
     {
       "question": "10. Which tag is used to define the metadata of an HTML document?",
-      "options": ["<head>", "<meta>", "<body>", "<title>"],
-      "answer": "<meta>",
-      "explanation": "The <meta> tag provides metadata such as charset, author, and description to the browser."
+      "options": ["head", "meta", "body", "title"],
+      "answer": "meta",
+      "explanation": "The meta tag provides metadata such as charset, author, and description to the browser."
     }
   ]
 }
