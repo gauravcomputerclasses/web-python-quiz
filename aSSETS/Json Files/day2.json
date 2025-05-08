@@ -1,0 +1,94 @@
+{
+  "quiz": [
+    {
+      "question": "1. What is the purpose of the hr tag in HTML?",
+      "options": [
+        "To create a line break",
+        "To insert a horizontal line for thematic separation",
+        "To underline text",
+        "To highlight text"
+      ],
+      "answer": "To insert a horizontal line for thematic separation",
+      "explanation": "The hr tag is used to insert a horizontal rule that separates content."
+    },
+    {
+      "question": "2. Which tag is used to create a simple line break without extra space?",
+      "options": ["br", "hr", "p", "li"],
+      "answer": "br",
+      "explanation": "The br tag forces a line break inside content like paragraphs or addresses."
+    },
+    {
+      "question": "3. What type of list is created using the ul tag?",
+      "options": [
+        "Ordered list",
+        "Unordered list",
+        "Description list",
+        "Numbered list"
+      ],
+      "answer": "Unordered list",
+      "explanation": "The ul tag creates an unordered (bulleted) list."
+    },
+    {
+      "question": "4. Which list type uses the dl, dt, and dd tags?",
+      "options": [
+        "Ordered list",
+        "Unordered list",
+        "Definition/Description list",
+        "Alphabet list"
+      ],
+      "answer": "Definition/Description list",
+      "explanation": "The dl list includes terms (dt) and their definitions (dd)."
+    },
+    {
+      "question": "5. Which attribute is used in ol to change numbering style?",
+      "options": ["style", "type", "class", "count"],
+      "answer": "type",
+      "explanation": "The type attribute in ol sets numbering style like 1, A, a, I, or i."
+    },
+    {
+      "question": "6. What does the strong tag represent in HTML?",
+      "options": [
+        "Italic text",
+        "Bold text with semantic emphasis",
+        "Large font size",
+        "Strikethrough text"
+      ],
+      "answer": "Bold text with semantic emphasis",
+      "explanation": "strong is used to indicate strong importance and is displayed as bold."
+    },
+    {
+      "question": "7. Which tag is used to emphasize text and usually renders it in italics?",
+      "options": ["i", "b", "em", "mark"],
+      "answer": "em",
+      "explanation": "em is for emphasized text, often displayed in italics and understood semantically."
+    },
+    {
+      "question": "8. What does the sub tag do in HTML?",
+      "options": [
+        "Creates a superscript",
+        "Displays highlighted text",
+        "Inserts a horizontal line",
+        "Creates subscript text like in H₂O"
+      ],
+      "answer": "Creates subscript text like in H₂O",
+      "explanation": "The sub tag lowers the text baseline for chemical or mathematical subscripts."
+    },
+    {
+      "question": "9. Which tag would you use to show inserted or newly added text (often underlined)?",
+      "options": ["ins", "del", "u", "code"],
+      "answer": "ins",
+      "explanation": "ins shows inserted content, usually underlined to indicate changes."
+    },
+    {
+      "question": "10. What does the abbr tag do in HTML?",
+      "options": [
+        "Adds emphasis",
+        "Shows tooltip on hover for abbreviations",
+        "Makes text smaller",
+        "Creates a hyperlink"
+      ],
+      "answer": "Shows tooltip on hover for abbreviations",
+      "explanation": "The abbr tag is used to define an abbreviation, and displays a tooltip with its full form."
+    }
+  ]
+}

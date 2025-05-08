@@ -158,7 +158,7 @@ class Quiz {
 }
 
 var questionList = [];
-fetch("questions.json")
+fetch("./aSSETS/Json Files/day2.json")
   .then((response) => response.json())
   .then((data) => {
     for (let i = 0; i < data.quiz.length; i++) {
