@@ -4,6 +4,15 @@ let next = document.querySelector(".next");
 let finish = document.querySelector(".finish");
 let input = document.querySelector("input");
 
+const firebaseConfig = {
+  apiKey: "AIzaSyCEtIRc51sh8YQestqcrRSmNQSFvwGPR7I",
+  authDomain: "quizdata-38c98.firebaseapp.com",
+  projectId: "quizdata-38c98",
+  storageBucket: "quizdata-38c98.firebasestorage.app",
+  messagingSenderId: "955426247901",
+  appId: "1:955426247901:web:583e9beaaa358970683734",
+};
+
 class Question {
   constructor(que, opt, ans, exp) {
     this.que = que;
@@ -134,25 +143,25 @@ class Quiz {
     submitBtn.className = "hidden";
     finish.className = "hidden";
   }
+
   sendResult(name, score) {
-    const scriptURL =
-      "https://script.google.com/macros/s/AKfycbwOrxjGsW1GBZgm8UaYCBrGp_ggi_qtdqkhJ53VNJzD/dev";
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
 
-    const data = `name=${encodeURIComponent(name)}&score=${score}`;
+    // Firestore reference
+    const db = firebase.firestore();
 
-    fetch(scriptURL, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/x-www-form-urlencoded",
-      },
-      body: data,
-    })
-      .then((response) => response.text())
-      .then((result) => {
-        console.log("✅ Submitted!", result);
+    db.collection("masterAi")
+      .add({
+        name: name,
+        score: score,
+        timestamp: new Date(),
+      })
+      .then(() => {
+        alert("Data saved!");
       })
       .catch((error) => {
-        console.error("❌ Failed to submit:", error);
+        console.log("Error saving data: ", error);
       });
   }
 }
