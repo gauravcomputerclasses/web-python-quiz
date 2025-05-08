@@ -151,7 +151,7 @@ class Quiz {
     // Firestore reference
     const db = firebase.firestore();
 
-    db.collection("masterAi")
+    db.collection("webPython")
       .add({
         name: name,
         score: score,
